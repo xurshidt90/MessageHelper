@@ -18,3 +18,11 @@ dependencies {
 	implementation 'com.github.xurshidt90:MessageHelper:Tag'
 }
 ```
+
+
+> How to use
+```kotlin
+button.setOnClicListener{
+	MessageHelper.showMessage(this, "Show test message")
+}
+```
